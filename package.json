@@ -4,6 +4,8 @@
   "description": "",
   "main": "1-intro.js",
   "scripts": {
+    "start": "node 13-npm.js",
+    "dev": "nodemon 13-npm.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +20,9 @@
   },
   "homepage": "https://github.com/J5Wood/node-express-practice#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
